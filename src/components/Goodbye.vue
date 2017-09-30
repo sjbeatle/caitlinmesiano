@@ -1,5 +1,5 @@
 <template>
-  <h2>{{ msg }}</h2>
+  <h2><span>{{ msg }}</span></h2>
 </template>
 
 <script>
@@ -14,8 +14,10 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style lang="scss">
 h2 {
-  font-weight: normal;
+  span {
+    font-weight: bold;
+  }
 }
 </style>
