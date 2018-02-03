@@ -2,14 +2,6 @@
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-lg-5">
       <section class="sec-simple">
-        <h2 class="sec-simple__title cm-title">About</h2>
-        <div
-          v-html="about"
-          class="sec-simple__content"
-        ></div>
-      </section>
-
-      <section class="sec-simple">
         <h2 class="sec-simple__title cm-title">Latest</h2>
         <div class="sec-simple__content">
           <div v-for="post in posts.slice(0, 2)" class="latest">
@@ -20,6 +12,14 @@
             <div v-html="post.content" class="latest__copy"></div>
           </div>
         </div>
+      </section>
+
+      <section class="sec-simple">
+        <h2 class="sec-simple__title cm-title">About</h2>
+        <div
+          v-html="about"
+          class="sec-simple__content"
+        ></div>
       </section>
     </div>
   </div>
