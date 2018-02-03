@@ -1,3 +1,20 @@
 /*------------------------------------*\
   GLOBAL SCSS VARIABLES
 \*------------------------------------*/
+  $width-xs-min: 0px;
+  $width-xs-max: 767px;
+  $width-sm-min: 768px;
+  $width-sm-max: 991px;
+  $width-md-min: 992px;
+  $width-md-max: 1199px;
+  $width-lg-min: 1200px;
+
+  $header-pad: 1.6rem;
+
+
+/*------------------------------------*\
+  #COLORS
+\*------------------------------------*/
+  $accent-blue: #55c8d9;
+  $heading: #24252c;
+  $hr: #55c8d9;

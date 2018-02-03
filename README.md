@@ -1,7 +1,3 @@
-# att
-
-> Agile Team Tool
-
 ## Build Setup
 
 ``` bash

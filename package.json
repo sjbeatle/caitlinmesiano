@@ -1,7 +1,7 @@
 {
-  "name": "att",
+  "name": "caitlin_mesiano",
   "version": "1.0.0",
-  "description": "Agile Team Tool",
+  "description": "Caitlin Mesiano - Official",
   "author": "Steven Black <sblack@us.ibm.com>",
   "private": true,
   "scripts": {
@@ -14,6 +14,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "vue": "^2.3.3",
     "vue-router": "^2.3.1"
   },
