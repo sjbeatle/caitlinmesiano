@@ -128,6 +128,17 @@
     padding: 0;
   }
 
+  img {
+    vertical-align: middle;
+    border: 0;
+  }
+
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
   input[type="text"] {
     border-radius: 5px;
     border: 1px solid #ddd;

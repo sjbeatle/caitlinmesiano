@@ -30,6 +30,38 @@
           </ul>
         </div>
       </section>
+
+      <section class="sec-simple">
+        <h2 class="sec-simple__title cm-title">Manager &amp; Agent</h2>
+        <div class="sec-simple__content">
+          <p><center>For business inquiries, please contact:</center></p>
+          <div class="uzan">
+            <img
+              src="../../static/img/uzanartists.png"
+              title="Kristen Ernst: Uzan International Artists Manager"
+              alt="Kristen Ernst: Uzan International Artists Manager"
+              class="img-responsive"
+            />
+          </div>
+          <div class="hudson-artists">
+            <img
+              src="../../static/img/Hudson-Artists-Agency.png"
+              title="Danny Prather: Hudson Artists Agency"
+              alt="Danny Prather: Hudson Artists Agency"
+              class="img-responsive"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-simple">
+        <h2 class="sec-simple__title cm-title">Friends</h2>
+        <div class="sec-simple__content">
+          <ul v-for="friend in friends" class="friends-list">
+            <li class="friends-list__item"><a href="friend.url" target="_blank">{{friend.title}}</a></li>
+          </ul>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -50,6 +82,20 @@
         fullNameError: false,
         emailError: false,
         messageError: false,
+        friends: [
+          {
+            url: 'http://www.booksouledout.com',
+            title: 'Souled Out (Band)',
+          },
+          {
+            url: 'http://www.corinnelouie.com',
+            title: 'Corinne Louie Photography',
+          },
+          {
+            url: 'https://www.doterra.com/US/en/',
+            title: 'dōTERRA Essential Oils',
+          },
+        ],
       };
     },
 
@@ -141,6 +187,21 @@
 </script>
 
 <style lang="scss">
+  .uzan {
+    width: 250px;
+    margin: 0 auto 30px auto;
+  }
+
+  .hudson-artists {
+    width: 400px;
+    margin: 0 auto 30px auto;
+  }
+
+  .friends-list {
+    list-style: disc;
+    margin-left: 25px;
+  }
+
   .hp {
     position: absolute;
     top: -1000px;
