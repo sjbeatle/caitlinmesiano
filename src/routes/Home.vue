@@ -106,6 +106,7 @@
       width: 60px;
       height: 60px;
       background: $accent-blue;
+      border-radius: 2px;
       margin: .6rem 1rem 0 0;
       padding: .5rem;
       color: #fff;
