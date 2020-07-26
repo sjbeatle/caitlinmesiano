@@ -58,14 +58,6 @@
               class="img-responsive"
             />
           </div>
-          <div class="hudson-artists">
-            <img
-              src="../../static/img/Hudson-Artists-Agency.png"
-              title="Danny Prather: Hudson Artists Agency"
-              alt="Danny Prather: Hudson Artists Agency"
-              class="img-responsive"
-            />
-          </div>
         </div>
       </section>
 
