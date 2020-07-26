@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '../routes/Home';
 import Galleries from '../routes/Galleries';
+import Latest from '../routes/Latest';
 import Contact from '../routes/Contact';
 import Media from '../routes/Media';
 import Resume from '../routes/Resume';
@@ -22,6 +23,11 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home,
+    },
+    {
+      path: '/latest',
+      name: 'Latest',
+      component: Latest,
     },
     {
       path: '/galleries',

@@ -2,6 +2,7 @@
   <nav>
     <ul class="nav group">
       <li
+        v-bind:key="item.label"
         class="nav__item"
         v-for="item in items"
       >
@@ -24,6 +25,10 @@
           {
             label: 'Home',
             route: '/',
+          },
+          {
+            label: 'Latest',
+            route: '/latest',
           },
           {
             label: 'Galleries',
