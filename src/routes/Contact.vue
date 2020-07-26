@@ -31,6 +31,11 @@
           </form>
           <ul>
             <li>
+              <a href="https://www.uiatalent.com/artists/caitlin-mesiano/?c=theatre" target="_blank">
+                UIA Talent micro-site for Caitlin <span class="fa fa-external-link"></span>
+              </a>
+            </li>
+            <li>
               <a href="static/media/Mesiano.C.Resume.2019.pdf" target="_blank">
                 <span class="fa fa-file-pdf-o"></span> PDF copy of Caitlin's resume
               </a>
