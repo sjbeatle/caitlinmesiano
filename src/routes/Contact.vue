@@ -31,8 +31,13 @@
           </form>
           <ul>
             <li>
-              <a href="static/media/CaitlinMesiano.pdf" target="_blank">
+              <a href="static/media/Mesiano.C.Resume.2019.pdf" target="_blank">
                 <span class="fa fa-file-pdf-o"></span> PDF copy of Caitlin's resume
+              </a>
+            </li>
+            <li>
+              <a href="static/media/Mesiano.C.EPK_.zip">
+                <span class="fa fa-file-archive-o"></span> Caitlin's Electronic Press Kit
               </a>
             </li>
             <li>
@@ -51,13 +56,19 @@
             <center>For business inquiries, please contact:</center>
           </p>
           <div class="uzan">
-            <img
-              src="../../static/img/uzanartists.png"
-              title="Kristen Ernst: Uzan International Artists Manager"
-              alt="Kristen Ernst: Uzan International Artists Manager"
-              class="img-responsive"
-            />
+            <a href="mailto:Aaron@uiatalent.com">
+              <img
+                src="../../static/img/UIA Talent Agency Logo.jpg"
+                title="Aaron Sanko: Uzan International Artists Manager"
+                alt="Aaron Sanko: Uzan International Artists Manager"
+                class="img-responsive"
+              />
+              <br />
+              <center>Aaron Sanko</center>
+            </a>
           </div>
+          <p>
+          </p>
         </div>
       </section>
 
