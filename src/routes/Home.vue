@@ -9,6 +9,8 @@
       <section class="sec-simple">
         <h2 class="sec-simple__title cm-title">About</h2>
         <div v-html="about" class="sec-simple__content"></div>
+        <br />
+        <p><a href="https://www.uiatalent.com/artists/caitlin-mesiano/?c=theatre" target="_blank">UIA Talent micro-site for Caitlin <span class="fa fa-external-link"></span></a></p>
       </section>
     </div>
   </div>
