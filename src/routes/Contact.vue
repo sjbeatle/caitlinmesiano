@@ -72,8 +72,8 @@
       <section class="sec-simple">
         <h2 class="sec-simple__title cm-title">Friends</h2>
         <div class="sec-simple__content">
-          <ul v-bind:key="friend.key" v-for="friend in friends" class="friends-list">
-            <li class="friends-list__item">
+          <ul class="friends-list">
+            <li v-bind:key="friend.key" v-for="friend in friends" class="friends-list__item">
               <a href="friend.url" target="_blank">{{friend.title}}</a>
             </li>
           </ul>
